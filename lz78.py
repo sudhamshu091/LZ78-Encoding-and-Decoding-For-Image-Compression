@@ -103,7 +103,7 @@ if h == 1:
     print("Observe the shapes and input and output arrays are matching or not")
     print(shape)
     print(res.shape)
-    data = Image.fromarray(res,"RGB")
+    data = Image.fromarray(res)
     data.save('uncompressed.png')
     if sudhi.all() == res.all():
         print("Success")
